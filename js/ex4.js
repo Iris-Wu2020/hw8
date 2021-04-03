@@ -8,6 +8,7 @@ document.querySelector("form").addEventListener("submit", e => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const resultElement = document.getElementById("result");
+    resultElement.innerHTML = "<label>Form Data Entered</label>"
     const tableElement = document.createElement("table");
     tableElement.classList = "user";
     const trElement1 = document.createElement("tr");
