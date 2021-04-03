@@ -33,3 +33,10 @@ img {
     height: 200px;;
     border: 1px solid black;
 }
+
+.user {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 5px;
+    padding-right: 5px;
+}
